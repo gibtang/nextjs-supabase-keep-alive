@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
@@ -22,8 +16,8 @@
       "maxDuration": 30
     }
   },
-"crons": [{
+  "crons": [{
     "path": "/",
-    "schedule": "* 10 * * *"
+    "schedule": "0 10 * * *"
   }]
 }
