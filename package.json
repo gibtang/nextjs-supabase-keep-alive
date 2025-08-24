@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-supabase-api",
+  "version": "1.0.0",
+  "description": "Next.js project with a Supabase database API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "next": "^14.2.3",
+    "pg": "^8.11.5",
+    "postgres": "^3.4.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
