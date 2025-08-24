@@ -32,7 +32,7 @@ export default function HomePage() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>Next.js Supabase Connector</h1>
+      <h1>Next.js Supabase Keep Alive Connector</h1>
       <p>{dbStatus}</p>
       {error && <p style={{ color: "red" }}>Error: {error}</p>}
     </div>
