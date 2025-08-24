@@ -6,11 +6,6 @@
       "dest": "/$1"
     }
   ],
-  "env": {
-    "SUPABASE_URL": "@supabase-url",
-    "SUPABASE_ANON_KEY": "@supabase-anon-key",
-    "DATABASE_URL": "@database-url"
-  },
   "functions": {
     "pages/api/**/*.js": {
       "maxDuration": 30
