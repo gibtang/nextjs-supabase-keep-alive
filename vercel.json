@@ -11,8 +11,8 @@
       "maxDuration": 30
     }
   },
-  "crons": {
+  "crons": [{
     "path": "/",
-    "schedule": "0 10 * * *"
-  }
+    "schedule": "* 10 * * *"
+  }]
 }
